@@ -39,7 +39,7 @@ This project seamlessly integrates with various databases:
 
 ### MySQL
 
-Configure MySQL settings in the MySQL configuration file.
+Configure MySQL settings in the MySQL configuration file (Relational db/sql/MysqlDatabase.js)
 
 ### MongoDB
 
