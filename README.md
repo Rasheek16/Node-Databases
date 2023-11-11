@@ -1,6 +1,3 @@
-Certainly! Below is the revised README with corrected formatting and relative links:
-
-```markdown
 # Node-Express Movie Backend API with Database Integration
 
 A Node.js backend project designed for managing a collection of movies with robust database integration. This project supports various databases such as MySQL, MongoDB, and SQLite for efficient data storage.
