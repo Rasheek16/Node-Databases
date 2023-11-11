@@ -39,15 +39,17 @@ This project seamlessly integrates with various databases:
 
 ### MySQL
 
-Configure MySQL settings in the [config/mysql-config.js](config/mysql-config.js) file.
+Configure MySQL settings in the [Relational-db/MySQL/mysql-config.js](Relational-db/MySQL/mysql-config.js) file.
 
+#PENDING
 ### MongoDB
 
-Configure MongoDB settings in the [config/mongodb-config.js](config/mongodb-config.js) file.
+Configure MongoDB settings in the [Non-Relational-db/mongodb-config.js](config/mongodb-config.js) file. 
 
+#PENDING
 ### SQLite
 
-Configure SQLite settings in the [config/sqlite-config.js](config/sqlite-config.js) file.
+Configure SQLite settings in the [Relational-db/SQLite/sqlite-config.js](config/sqlite-config.js) file.
 
 Choose the database that best fits your requirements, and adjust the configuration accordingly.
 
