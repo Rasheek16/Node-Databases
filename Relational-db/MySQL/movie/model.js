@@ -1,4 +1,4 @@
-import { connection } from "../database.js";
+import { connection } from "../mysql-config.js";
 
 export async function getAll() {
   try {
@@ -32,7 +32,6 @@ function getNextId() {
 
 async function insertMovie(movie) {
   try {
-    
     const query = "INSERT INTO movies(title,year) VALUES (?,?)";
     const [result] = await connection.query(query, [movie.title, movie.year]);
     return { ...movie, id: result.insertId };

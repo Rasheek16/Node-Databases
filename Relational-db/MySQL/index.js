@@ -8,10 +8,9 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { createWriteStream } from "fs";
 import spdy from "spdy";
-import {connection} from './database.js'
+import { connection } from "./Mysqldatabase.js";
 
 const app = express();
-
 
 //connection
 await connection.connect(function (err) {
@@ -21,7 +20,6 @@ await connection.connect(function (err) {
     console.log("connection created with Mysql successfully");
   }
 });
-
 
 //LOGGING INCOMING REQUESTS TO ACCESS.LOG FILE
 const accessLogStream = createWriteStream("access.log", { flags: "a" });
