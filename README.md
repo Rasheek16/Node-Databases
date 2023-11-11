@@ -1,3 +1,6 @@
+Certainly! Below is the revised README with corrected formatting and relative links:
+
+```markdown
 # Node-Express Movie Backend API with Database Integration
 
 A Node.js backend project designed for managing a collection of movies with robust database integration. This project supports various databases such as MySQL, MongoDB, and SQLite for efficient data storage.
@@ -39,15 +42,15 @@ This project seamlessly integrates with various databases:
 
 ### MySQL
 
-Configure MySQL settings in the MySQL configuration file (Relational db/sql/MysqlDatabase.js)
+Configure MySQL settings in the [config/mysql-config.js](config/mysql-config.js) file.
 
 ### MongoDB
 
-Configure MongoDB settings in the MongoDB configuration file.
+Configure MongoDB settings in the [config/mongodb-config.js](config/mongodb-config.js) file.
 
 ### SQLite
 
-Configure SQLite settings in the SQLite configuration file.
+Configure SQLite settings in the [config/sqlite-config.js](config/sqlite-config.js) file.
 
 Choose the database that best fits your requirements, and adjust the configuration accordingly.
 
@@ -86,4 +89,5 @@ Choose the database that best fits your requirements, and adjust the configurati
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or improvements, please open an issue or create a pull request.
+Contributions are welcome! If you have any suggestions, bug reports, or improvements, please [open an issue](https://github.com/Rasheek16/Node-Express/issues) or create a [pull request](https://github.com/Rasheek16/Node-Express/pulls).
+```
