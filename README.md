@@ -49,7 +49,7 @@ Configure MongoDB settings in the [Non-Relational-db/mongodb-config.js](config/m
 
 ### SQLite
 
-Configure SQLite settings in the [Relational-db/SQLite/sqlite-config.js](Relational-db/config/sqlite-config.js) file.
+Configure SQLite settings in the [Relational-db/SQLite/sqlite-config.js](Relational-db/SQLite/sqlite-config.js) file.
 
 Choose the database that best fits your requirements, and adjust the configuration accordingly.
 
