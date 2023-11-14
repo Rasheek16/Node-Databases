@@ -36,20 +36,20 @@ Before getting started, make sure you have the following prerequisites in place:
 ## Database Integration
 
 This project seamlessly integrates with various databases:
-
+## RELATIONAL DB
 ### MySQL
 
 Configure MySQL settings in the [Relational-db/MySQL/mysql-config.js](Relational-db/MySQL/mysql-config.js) file.
 
-#PENDING
+#### PENDING
 ### MongoDB
 
 Configure MongoDB settings in the [Non-Relational-db/mongodb-config.js](config/mongodb-config.js) file. 
 
-#PENDING
+
 ### SQLite
 
-Configure SQLite settings in the [Relational-db/SQLite/sqlite-config.js](config/sqlite-config.js) file.
+Configure SQLite settings in the [Relational-db/SQLite/sqlite-config.js](Relational-db/SQLite/sqlite-config.js) file.
 
 Choose the database that best fits your requirements, and adjust the configuration accordingly.
 
