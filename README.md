@@ -26,8 +26,9 @@ Before getting started, make sure you have the following prerequisites in place:
    ```bash
    cd Node-express
    ```
-
-3. Install dependencies:
+3. Navigate to the database folder.
+ 
+4. Install dependencies:
 
    ```bash
    npm install
